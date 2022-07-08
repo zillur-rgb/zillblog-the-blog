@@ -1,6 +1,8 @@
 import { Button, Container, createTheme, ThemeProvider } from "@mui/material";
 import { blueGrey } from "@mui/material/colors";
 import "./App.css";
+import ResponsiveAppBar from "./components/Appbar/ResponsiveAppBar";
+import LatestBar from "./components/LatestBar/LatestBar";
 
 declare module "@mui/material/styles" {
   interface Theme {
@@ -35,7 +37,7 @@ const theme = createTheme({
   },
   palette: {
     primary: {
-      main: "#be90d4",
+      main: "#4d13d1",
       darker: "#053e85",
     },
     secondary: {
@@ -51,11 +53,8 @@ const theme = createTheme({
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Container>
-        <Button variant="contained" color="secondary">
-          Hello Motto
-        </Button>
-      </Container>
+      <ResponsiveAppBar />
+      <LatestBar />
     </ThemeProvider>
   );
 }
