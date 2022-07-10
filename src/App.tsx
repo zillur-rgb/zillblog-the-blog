@@ -3,6 +3,7 @@ import { blueGrey } from "@mui/material/colors";
 import "./App.css";
 import ResponsiveAppBar from "./components/Appbar/ResponsiveAppBar";
 import LatestBar from "./components/LatestBar/LatestBar";
+import SideBlogs from "./components/SideBlogs/SideBlogs";
 
 declare module "@mui/material/styles" {
   interface Theme {
@@ -55,6 +56,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <ResponsiveAppBar />
       <LatestBar />
+      <SideBlogs />
     </ThemeProvider>
   );
 }
