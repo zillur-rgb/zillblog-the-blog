@@ -2,6 +2,7 @@ import { Button, Container, createTheme, ThemeProvider } from "@mui/material";
 import { blueGrey } from "@mui/material/colors";
 import "./App.css";
 import ResponsiveAppBar from "./components/Appbar/ResponsiveAppBar";
+import CategoryBlogs from "./components/CategoryBlogs/CategoryBlogs";
 import LatestBar from "./components/LatestBar/LatestBar";
 import SideBlogs from "./components/SideBlogs/SideBlogs";
 
@@ -57,6 +58,7 @@ function App() {
       <ResponsiveAppBar />
       <LatestBar />
       <SideBlogs />
+      <CategoryBlogs />
     </ThemeProvider>
   );
 }

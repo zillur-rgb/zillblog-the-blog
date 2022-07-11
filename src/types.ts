@@ -4,10 +4,14 @@ export default interface latestPost {
   img: string;
   like?: number;
   description?: string;
+  category?: string;
 }
 
 export default interface post {
   id?: number;
-  img: string;
   title: string;
+  img: string;
+  like?: number;
+  description?: string;
+  category?: string;
 }

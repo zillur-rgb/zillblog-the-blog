@@ -43,7 +43,7 @@ const SideBlogs = () => {
       flexWrap="wrap"
       spacing={4}
       sx={{
-        m: "80px 10%",
+        m: "40px 10%",
       }}
     >
       <Grid container spacing={2}>
@@ -68,6 +68,7 @@ const SideBlogs = () => {
                 img={post.img}
                 title={post.title}
                 description={post.description}
+                key={post.id}
               />
             ))}
           </Stack>
