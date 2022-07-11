@@ -1,9 +1,24 @@
-import { Box, Divider, Grid, Stack } from "@mui/material";
+import { Box, Card, Divider, Grid, Stack } from "@mui/material";
 import { Container } from "@mui/system";
 import React from "react";
+import { Link } from "react-router-dom";
 import CategorySpecificBlogs from "./CategorySpecificBlogs";
+import VerticalCategories from "./VerticalCategories";
 
 const CategoryBlogs = () => {
+  const categories: string[] = [
+    "Architectue",
+    "Beauty",
+    "Business",
+    "Celebrities",
+    "Entertainment",
+    "Fashion",
+    "Movies",
+    "Sports",
+    "Technology",
+    "USA is the best",
+    "War",
+  ];
   return (
     <Box
       sx={{
@@ -16,6 +31,35 @@ const CategoryBlogs = () => {
         </Grid>
         <Grid item xs={6}>
           <CategorySpecificBlogs category="sports" />
+        </Grid>
+      </Grid>
+      <Grid container spacing={4}>
+        <Grid item xs={8}>
+          <Grid container>
+            <Grid item xs={12}>
+              <VerticalCategories category="business" />
+            </Grid>
+            <Grid item xs={12}>
+              <VerticalCategories category="weather" />
+            </Grid>
+          </Grid>
+        </Grid>
+        <Grid item xs={3}>
+          <h1>Categories</h1>
+          <Card variant="outlined">
+            <ul>
+              {categories.map((cat) => (
+                <li
+                  key={cat}
+                  style={{
+                    margin: "30px 0",
+                  }}
+                >
+                  <Link to="/">{cat}</Link>
+                </li>
+              ))}
+            </ul>
+          </Card>
         </Grid>
       </Grid>
     </Box>

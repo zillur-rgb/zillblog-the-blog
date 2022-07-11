@@ -47,6 +47,54 @@
       "description": "loremLorem Ipsum is simply dummy text of the printing and typesetting industry.",
       "category": "sports",
       "like": 23
+    },
+    {
+      "id": 6,
+      "title": "One you see is smarter than he!",
+      "img": "https://images.unsplash.com/photo-1656432318388-744f6e54180f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1398&q=80",
+      "description": "loremLorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "category": "business",
+      "like": 74
+    },
+    {
+      "id": 7,
+      "title": "No phones, No light, No Moatorcars",
+      "img": "https://images.unsplash.com/photo-1655718354542-fc0646489e4a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "description": "loremLorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "category": "business",
+      "like": 23
+    },
+    {
+      "id": 8,
+      "title": "You cannot get away with murder!",
+      "img": "https://images.unsplash.com/photo-1562465156-05664938bfa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "description": "loremLorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "category": "business",
+      "like": 23
+    },
+    {
+      "id": 9,
+      "title": "The firecamp is finally happening my gang",
+      "img": "https://images.unsplash.com/photo-1567593810070-7a3d471af022?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80",
+      "description": "loremLorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "category": "weather",
+      "like": 45
+    },
+    {
+      "id": 10,
+      "title": "There will be storm next few hours",
+      "img": "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "description": "loremLorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "category": "weather",
+      "like": 45
+    },
+    {
+      "id": 11,
+      "title": "Look it is snowing in Summer!!!",
+      "img": "https://images.unsplash.com/photo-1520021549653-5524524c47f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80",
+      "description": "loremLorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "category": "weather",
+      "like": 45
     }
   ]
 }
