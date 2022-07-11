@@ -3,6 +3,7 @@ import { blueGrey } from "@mui/material/colors";
 import "./App.css";
 import ResponsiveAppBar from "./components/Appbar/ResponsiveAppBar";
 import CategoryBlogs from "./components/CategoryBlogs/CategoryBlogs";
+import Footer from "./components/Footer/Footer";
 import LatestBar from "./components/LatestBar/LatestBar";
 import SideBlogs from "./components/SideBlogs/SideBlogs";
 
@@ -47,7 +48,7 @@ const theme = createTheme({
     },
     neutral: {
       main: blueGrey[900],
-      contrastText: "#fff",
+      contrastText: "#ccc",
     },
   },
 });
@@ -59,6 +60,7 @@ function App() {
       <LatestBar />
       <SideBlogs />
       <CategoryBlogs />
+      <Footer />
     </ThemeProvider>
   );
 }
