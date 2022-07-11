@@ -1,6 +1,4 @@
-import { Box, Card, Divider, Grid, Stack } from "@mui/material";
-import { Container } from "@mui/system";
-import React from "react";
+import { Box, Card, Grid } from "@mui/material";
 import { Link } from "react-router-dom";
 import CategorySpecificBlogs from "./CategorySpecificBlogs";
 import VerticalCategories from "./VerticalCategories";

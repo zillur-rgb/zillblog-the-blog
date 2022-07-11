@@ -1,8 +1,3 @@
-import * as React from "react";
-import Box from "@mui/material/Box";
-import Button from "@mui/material/Button";
-import { Container } from "@mui/system";
-import Buttons from "../Button/Button";
 import { Grid, Stack } from "@mui/material";
 import Left from "./Left";
 import Center from "./Center";

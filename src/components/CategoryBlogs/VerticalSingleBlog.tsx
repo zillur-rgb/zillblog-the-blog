@@ -5,7 +5,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import Buttons from "../Button/Button";
-import { CardActionArea, CardActions, Stack } from "@mui/material";
+import { CardActionArea, CardActions } from "@mui/material";
 
 function VerticalSingleBlog({ title, img, description }: post): JSX.Element {
   return (

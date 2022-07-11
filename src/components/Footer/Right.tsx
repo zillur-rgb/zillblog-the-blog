@@ -1,5 +1,4 @@
 import { Stack, TextField, Typography } from "@mui/material";
-import React from "react";
 import Buttons from "../Button/Button";
 
 const Right = () => {
