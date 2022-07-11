@@ -4,6 +4,7 @@ import "./App.css";
 import ResponsiveAppBar from "./components/Appbar/ResponsiveAppBar";
 import CategoryBlogs from "./components/CategoryBlogs/CategoryBlogs";
 import Footer from "./components/Footer/Footer";
+import LastFooter from "./components/Footer/LastFooter";
 import LatestBar from "./components/LatestBar/LatestBar";
 import SideBlogs from "./components/SideBlogs/SideBlogs";
 
@@ -61,6 +62,7 @@ function App() {
       <SideBlogs />
       <CategoryBlogs />
       <Footer />
+      <LastFooter />
     </ThemeProvider>
   );
 }
